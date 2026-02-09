@@ -101,7 +101,7 @@ export default function Home() {
                 <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
                   <button className="bg-white text-gray-900 px-10 py-5 rounded-full text-xl font-bold hover-lift shadow-2xl">
                     <i className="fab fa-whatsapp mr-3 text-green-500"></i>
-                    Essai gratuit 30 jours
+                    Commencer maintenant
                   </button>
                   <button className="glass text-white px-10 py-5 rounded-full text-xl font-bold hover-lift">
                     <i className="fas fa-play mr-3"></i>
@@ -305,9 +305,9 @@ export default function Home() {
 
                 <button className="w-full bg-gradient-to-r from-orange-500 to-pink-500 text-white py-5 rounded-full text-xl font-bold hover-lift shadow-xl mb-6">
                   <i className="fab fa-whatsapp mr-3"></i>
-                  Commencer l'essai gratuit
+                  Commencer maintenant
                 </button>
-                <p className="text-base text-gray-500 font-medium">30 jours d'essai · Aucune carte requise</p>
+                <p className="text-base text-gray-500 font-medium">50% de réduction les 3 premiers mois</p>
               </div>
             </div>
 
@@ -326,6 +326,94 @@ export default function Home() {
                   <span className="text-blue-300 font-bold text-2xl">5 min setup</span>
                   <p className="text-white/70 text-lg mt-2">prêt en quelques clics</p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Coming Soon Section */}
+        <section className="py-24 bg-white">
+          <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+            <div className="text-center mb-20">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-6 leading-tight">
+                Bientôt disponible
+              </h2>
+              <p className="text-2xl text-gray-700 max-w-3xl mx-auto font-medium">
+                RestoAI évolue constamment. Voici ce qui arrive prochainement !
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+              <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-3xl p-12 text-center relative overflow-hidden">
+                <div className="absolute top-4 right-4">
+                  <span className="bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-bold">
+                    Q2 2026
+                  </span>
+                </div>
+                <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-3xl flex items-center justify-center mx-auto mb-8 shadow-xl">
+                  <i className="fas fa-language text-white text-3xl"></i>
+                </div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-6">Traduction de menus</h3>
+                <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                  Traduisez automatiquement vos menus en <span className="font-semibold text-blue-600">anglais, espagnol, italien, allemand</span> via WhatsApp. 
+                  Perfect pour les zones touristiques !
+                </p>
+                <ul className="text-left space-y-3 text-gray-700">
+                  <li className="flex items-center">
+                    <i className="fas fa-check text-green-500 mr-3"></i>
+                    <span>Photo de menu → Traduction instantanée</span>
+                  </li>
+                  <li className="flex items-center">
+                    <i className="fas fa-check text-green-500 mr-3"></i>
+                    <span>5 langues européennes</span>
+                  </li>
+                  <li className="flex items-center">
+                    <i className="fas fa-check text-green-500 mr-3"></i>
+                    <span>Format PDF prêt à imprimer</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="bg-gradient-to-br from-green-50 to-blue-50 rounded-3xl p-12 text-center relative overflow-hidden">
+                <div className="absolute top-4 right-4">
+                  <span className="bg-green-500 text-white px-4 py-2 rounded-full text-sm font-bold">
+                    Q3 2026
+                  </span>
+                </div>
+                <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-blue-500 rounded-3xl flex items-center justify-center mx-auto mb-8 shadow-xl">
+                  <i className="fas fa-calendar-check text-white text-3xl"></i>
+                </div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-6">Gestion de réservations</h3>
+                <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                  Vos clients réservent directement via WhatsApp. Vous confirmez d'un clic. 
+                  <span className="font-semibold text-green-600">Fini les appels téléphoniques !</span>
+                </p>
+                <ul className="text-left space-y-3 text-gray-700">
+                  <li className="flex items-center">
+                    <i className="fas fa-check text-green-500 mr-3"></i>
+                    <span>Réservation via lien WhatsApp</span>
+                  </li>
+                  <li className="flex items-center">
+                    <i className="fas fa-check text-green-500 mr-3"></i>
+                    <span>Gestion des créneaux automatique</span>
+                  </li>
+                  <li className="flex items-center">
+                    <i className="fas fa-check text-green-500 mr-3"></i>
+                    <span>Rappels automatiques clients</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="text-center mt-16">
+              <div className="bg-gradient-to-r from-orange-100 to-pink-100 rounded-2xl p-8 max-w-3xl mx-auto">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                  🎯 Accès prioritaire pour nos early adopters
+                </h3>
+                <p className="text-lg text-gray-600 font-medium">
+                  Les restaurants qui s'abonnent maintenant auront accès en avant-première aux nouvelles fonctionnalités. 
+                  <span className="text-orange-600 font-bold">Sans surcoût pendant 6 mois !</span>
+                </p>
               </div>
             </div>
           </div>
@@ -445,10 +533,10 @@ export default function Home() {
                   🎉 Offre de lancement
                 </h3>
                 <p className="text-2xl mb-8 font-medium">
-                  <strong>30 jours gratuits</strong> + <span className="bg-white text-purple-600 px-3 py-1 rounded-full font-bold">50% de réduction</span> les 3 premiers mois
+                  <span className="bg-white text-purple-600 px-4 py-2 rounded-full font-bold">50% de réduction</span> les 3 premiers mois
                 </p>
                 <p className="text-xl opacity-95 font-medium">
-                  Profitez-en, cette offre est limitée aux 100 premiers restaurants !
+                  Réduction limitée aux 100 premiers restaurants !
                 </p>
               </div>
 
