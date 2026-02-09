@@ -1,14 +1,16 @@
 {
   "name": "restoai-website",
   "version": "1.0.0",
-  "description": "RestoAI Landing Page - Node.js/Express server",
-  "main": "server.js",
+  "private": true,
   "scripts": {
-    "start": "node server.js",
-    "build": "echo 'No build needed'"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "engines": {
     "node": "18.x"
