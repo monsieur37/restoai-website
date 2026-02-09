@@ -30,6 +30,8 @@ export default function Home() {
                   </h1>
                 </div>
               </div>
+              
+              {/* Desktop Menu */}
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a href="#pourquoi" className="text-gray-600 hover:text-blue-600 px-3 py-2 text-sm font-medium">Pourquoi</a>
@@ -38,6 +40,30 @@ export default function Home() {
                   <a href="#temoignages" className="text-gray-600 hover:text-blue-600 px-3 py-2 text-sm font-medium">Témoignages</a>
                   <a href="#contact" className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700">Contact</a>
                 </div>
+              </div>
+              
+              {/* Mobile menu button */}
+              <div className="md:hidden">
+                <button 
+                  onClick={() => {
+                    const menu = document.getElementById('mobile-menu');
+                    menu.classList.toggle('hidden');
+                  }}
+                  className="text-gray-600 hover:text-blue-600 p-2"
+                >
+                  <i className="fas fa-bars text-xl"></i>
+                </button>
+              </div>
+            </div>
+            
+            {/* Mobile Menu */}
+            <div id="mobile-menu" className="md:hidden hidden">
+              <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t">
+                <a href="#pourquoi" className="text-gray-600 hover:text-blue-600 block px-3 py-2 text-base font-medium">Pourquoi</a>
+                <a href="#fonctionnement" className="text-gray-600 hover:text-blue-600 block px-3 py-2 text-base font-medium">Comment ça marche</a>
+                <a href="#pricing" className="text-gray-600 hover:text-blue-600 block px-3 py-2 text-base font-medium">Tarifs</a>
+                <a href="#temoignages" className="text-gray-600 hover:text-blue-600 block px-3 py-2 text-base font-medium">Témoignages</a>
+                <a href="#contact" className="bg-blue-600 text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700 mx-3 mt-4">Contact</a>
               </div>
             </div>
           </div>
