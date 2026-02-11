@@ -106,7 +106,7 @@ export default function Home() {
                   Vous validez d'un clic depuis WhatsApp. Simple, rapide, efficace.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
-                  <a href="https://restoai-zeta.vercel.app/api/auth/google" className="bg-white text-gray-900 px-10 py-5 rounded-full text-xl font-bold hover-lift shadow-2xl inline-block">
+                  <a href="/api/auth/google" className="bg-white text-gray-900 px-10 py-5 rounded-full text-xl font-bold hover-lift shadow-2xl inline-block">
                     <i className="fab fa-whatsapp mr-3 text-green-500"></i>
                     Commencer maintenant
                   </a>
@@ -310,7 +310,7 @@ export default function Home() {
                   </li>
                 </ul>
 
-                <a href="https://restoai-zeta.vercel.app/api/auth/google" className="w-full bg-gradient-to-r from-orange-500 to-pink-500 text-white py-5 rounded-full text-xl font-bold hover-lift shadow-xl mb-6 inline-block text-center">
+                <a href="/api/auth/google" className="w-full bg-gradient-to-r from-orange-500 to-pink-500 text-white py-5 rounded-full text-xl font-bold hover-lift shadow-xl mb-6 inline-block text-center">
                   <i className="fab fa-whatsapp mr-3"></i>
                   Commencer maintenant
                 </a>
@@ -548,7 +548,7 @@ export default function Home() {
               </div>
 
               <div className="space-y-6 mb-12">
-                <a href="https://restoai-zeta.vercel.app/api/auth/google" className="w-full bg-gradient-to-r from-green-500 to-green-600 text-white py-6 rounded-full text-2xl font-bold hover-lift shadow-xl inline-block text-center">
+                <a href="/api/auth/google" className="w-full bg-gradient-to-r from-green-500 to-green-600 text-white py-6 rounded-full text-2xl font-bold hover-lift shadow-xl inline-block text-center">
                   <i className="fab fa-whatsapp mr-4"></i>
                   Démarrer maintenant sur WhatsApp
                 </a>
