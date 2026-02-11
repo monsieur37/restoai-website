@@ -5,7 +5,7 @@ export default function Mentions() {
   return (
     <>
       <Head>
-        <title>Mentions Légales - RestoAI</title>
+        <title>Mentions Légales - DishReply</title>
         <script src="https://cdn.tailwindcss.com"></script>
       </Head>
 
@@ -20,7 +20,7 @@ export default function Mentions() {
           <div className="bg-white rounded-lg p-8 shadow-sm">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">Éditeur</h2>
             <p className="text-gray-700 mb-6">
-              <strong>RestoAI SARL</strong><br/>
+              <strong>DishReply SARL</strong><br/>
               Capital social : 1 000 €<br/>
               SIRET : 123 456 789 00012<br/>
               Code APE : 6201Z

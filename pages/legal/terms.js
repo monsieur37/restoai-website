@@ -5,7 +5,7 @@ export default function Terms() {
   return (
     <>
       <Head>
-        <title>Conditions Générales d'Utilisation - RestoAI</title>
+        <title>Conditions Générales d'Utilisation - DishReply</title>
         <script src="https://cdn.tailwindcss.com"></script>
       </Head>
 
@@ -22,7 +22,7 @@ export default function Terms() {
             
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Objet</h2>
             <p className="text-gray-700 mb-6">
-              RestoAI est un service SaaS d'assistance IA pour restaurants, permettant la gestion 
+              DishReply est un service SaaS d'assistance IA pour restaurants, permettant la gestion 
               automatisée des avis Google via WhatsApp Business.
             </p>
             

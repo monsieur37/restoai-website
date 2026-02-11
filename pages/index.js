@@ -4,8 +4,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>RestoAI - Gérez vos avis Google depuis WhatsApp</title>
-        <meta name="description" content="RestoAI automatise la gestion de vos avis Google via WhatsApp. L'IA génère des réponses, vous validez d'un clic. Fini la corvée des avis !" />
+        <title>DishReply - Gérez vos avis Google depuis WhatsApp</title>
+        <meta name="description" content="DishReply automatise la gestion de vos avis Google via WhatsApp. L'IA génère des réponses, vous validez d'un clic. Fini la corvée des avis !" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#FF3366" />
+        <meta property="og:title" content="DishReply - Automatisez vos réponses aux avis Google" />
+        <meta property="og:description" content="DishReply automatise la gestion de vos avis Google via WhatsApp. L'IA génère des réponses, vous validez d'un clic." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://dishreply.com" />
         <script src="https://cdn.tailwindcss.com"></script>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -41,7 +48,7 @@ export default function Home() {
               <div className="flex items-center">
                 <div className="flex-shrink-0">
                   <h1 className="text-3xl font-bold text-gray-900">
-                    🍽️<span className="bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">RestoAI</span>
+                    🍽️<span className="bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">DishReply</span>
                   </h1>
                 </div>
               </div>
@@ -99,10 +106,10 @@ export default function Home() {
                   Vous validez d'un clic depuis WhatsApp. Simple, rapide, efficace.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
-                  <button className="bg-white text-gray-900 px-10 py-5 rounded-full text-xl font-bold hover-lift shadow-2xl">
+                  <a href="https://restoai-zeta.vercel.app/api/auth/google" className="bg-white text-gray-900 px-10 py-5 rounded-full text-xl font-bold hover-lift shadow-2xl inline-block">
                     <i className="fab fa-whatsapp mr-3 text-green-500"></i>
                     Commencer maintenant
-                  </button>
+                  </a>
                   <button className="glass text-white px-10 py-5 rounded-full text-xl font-bold hover-lift">
                     <i className="fas fa-play mr-3"></i>
                     Voir la démo
@@ -181,7 +188,7 @@ export default function Home() {
                 Comment ça marche ?
               </h2>
               <p className="text-2xl text-gray-700 max-w-3xl mx-auto font-medium">
-                RestoAI s'occupe de tout. Vous n'avez qu'à valider depuis WhatsApp.
+                DishReply s'occupe de tout. Vous n'avez qu'à valider depuis WhatsApp.
               </p>
             </div>
 
@@ -192,7 +199,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Détection automatique</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Dès qu'un client laisse un avis sur Google, RestoAI le détecte et vous envoie une notification WhatsApp.
+                  Dès qu'un client laisse un avis sur Google, DishReply le détecte et vous envoie une notification WhatsApp.
                 </p>
               </div>
 
@@ -212,7 +219,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Vous validez en 1 clic</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Trois boutons : <span className="font-semibold">✅ Publier</span>, <span className="font-semibold">✏️ Modifier</span> ou <span className="font-semibold">❌ Ignorer</span>. RestoAI s'occupe du reste !
+                  Trois boutons : <span className="font-semibold">✅ Publier</span>, <span className="font-semibold">✏️ Modifier</span> ou <span className="font-semibold">❌ Ignorer</span>. DishReply s'occupe du reste !
                 </p>
               </div>
             </div>
@@ -224,10 +231,10 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
             <div className="text-center mb-20">
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-6 leading-tight">
-                Voyez RestoAI en action
+                Voyez DishReply en action
               </h2>
               <p className="text-2xl text-gray-700 max-w-3xl mx-auto font-medium">
-                Découvrez comment RestoAI transforme la gestion de vos avis en quelques secondes.
+                Découvrez comment DishReply transforme la gestion de vos avis en quelques secondes.
               </p>
             </div>
             
@@ -270,7 +277,7 @@ export default function Home() {
                 </div>
                 
                 <div className="mb-10">
-                  <h3 className="text-3xl font-bold text-gray-900 mb-3">RestoAI Essentiel</h3>
+                  <h3 className="text-3xl font-bold text-gray-900 mb-3">DishReply Essentiel</h3>
                   <p className="text-lg text-gray-600">Gestion d'avis Google avec IA</p>
                 </div>
                 
@@ -303,16 +310,16 @@ export default function Home() {
                   </li>
                 </ul>
 
-                <button className="w-full bg-gradient-to-r from-orange-500 to-pink-500 text-white py-5 rounded-full text-xl font-bold hover-lift shadow-xl mb-6">
+                <a href="https://restoai-zeta.vercel.app/api/auth/google" className="w-full bg-gradient-to-r from-orange-500 to-pink-500 text-white py-5 rounded-full text-xl font-bold hover-lift shadow-xl mb-6 inline-block text-center">
                   <i className="fab fa-whatsapp mr-3"></i>
                   Commencer maintenant
-                </button>
+                </a>
                 <p className="text-base text-gray-500 font-medium">50% de réduction les 3 premiers mois</p>
               </div>
             </div>
 
             <div className="text-center mt-16">
-              <p className="text-white/70 mb-8 text-xl font-medium">Pourquoi choisir RestoAI ?</p>
+              <p className="text-white/70 mb-8 text-xl font-medium">Pourquoi choisir DishReply ?</p>
               <div className="grid md:grid-cols-3 gap-12 text-center max-w-5xl mx-auto">
                 <div className="text-center">
                   <span className="text-yellow-300 font-bold text-2xl">vs 200€+/mois</span>
@@ -339,7 +346,7 @@ export default function Home() {
                 Bientôt disponible
               </h2>
               <p className="text-2xl text-gray-700 max-w-3xl mx-auto font-medium">
-                RestoAI évolue constamment. Voici ce qui arrive prochainement !
+                DishReply évolue constamment. Voici ce qui arrive prochainement !
               </p>
             </div>
 
@@ -424,7 +431,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
             <div className="text-center mb-20">
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-6 leading-tight">
-                Ils utilisent déjà RestoAI
+                Ils utilisent déjà DishReply
               </h2>
               <p className="text-2xl text-gray-700 font-medium">
                 Plus de 50 restaurants indépendants nous font confiance
@@ -523,7 +530,7 @@ export default function Home() {
                 Prêt à automatiser vos avis ?
               </h2>
               <p className="text-2xl text-gray-700 max-w-3xl mx-auto font-medium">
-                Rejoignez les 50+ restaurants qui économisent déjà du temps avec RestoAI
+                Rejoignez les 50+ restaurants qui économisent déjà du temps avec DishReply
               </p>
             </div>
 
@@ -541,10 +548,10 @@ export default function Home() {
               </div>
 
               <div className="space-y-6 mb-12">
-                <button className="w-full bg-gradient-to-r from-green-500 to-green-600 text-white py-6 rounded-full text-2xl font-bold hover-lift shadow-xl">
+                <a href="https://restoai-zeta.vercel.app/api/auth/google" className="w-full bg-gradient-to-r from-green-500 to-green-600 text-white py-6 rounded-full text-2xl font-bold hover-lift shadow-xl inline-block text-center">
                   <i className="fab fa-whatsapp mr-4"></i>
                   Démarrer maintenant sur WhatsApp
-                </button>
+                </a>
                 <p className="text-lg text-gray-600 font-medium">
                   Envoyez <span className="font-bold text-gray-900">"DEMO"</span> au <span className="font-bold text-gray-900">+33 6 XX XX XX XX</span>
                 </p>
@@ -553,11 +560,11 @@ export default function Home() {
               <div className="border-t border-gray-200 pt-12">
                 <h3 className="text-xl font-bold text-gray-900 mb-8">Questions ? Contactez-nous</h3>
                 <div className="flex flex-col sm:flex-row justify-center gap-8">
-                  <a href="mailto:hello@restoai.fr" className="flex items-center justify-center text-lg font-semibold text-blue-600 hover:text-blue-700 transition-colors">
+                  <a href="mailto:hello@dishreply.com" className="flex items-center justify-center text-lg font-semibold text-blue-600 hover:text-blue-700 transition-colors">
                     <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
                       <i className="fas fa-envelope text-blue-600"></i>
                     </div>
-                    hello@restoai.fr
+                    hello@dishreply.com
                   </a>
                   <a href="tel:+33XXXXXXXXX" className="flex items-center justify-center text-lg font-semibold text-green-600 hover:text-green-700 transition-colors">
                     <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
@@ -576,7 +583,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
             <div className="grid md:grid-cols-4 gap-12 mb-12">
               <div>
-                <h3 className="text-3xl font-bold mb-6">🍽️ <span className="bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent">RestoAI</span></h3>
+                <h3 className="text-3xl font-bold mb-6">🍽️ <span className="bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent">DishReply</span></h3>
                 <p className="text-gray-300 text-lg font-medium leading-relaxed">
                   L'assistant IA qui révolutionne la gestion d'avis pour les restaurants indépendants.
                 </p>
@@ -619,7 +626,7 @@ export default function Home() {
             
             <div className="border-t border-gray-700 pt-10 text-center">
               <p className="text-gray-300 text-lg font-medium">
-                &copy; 2026 RestoAI. Tous droits réservés. 
+                &copy; 2026 DishReply. Tous droits réservés. 
                 Développé avec <span className="text-red-400">❤️</span> en France par <a href="https://github.com/monsieur37" className="text-orange-400 hover:text-orange-300 font-semibold transition-colors">Adrien</a>.
               </p>
             </div>
